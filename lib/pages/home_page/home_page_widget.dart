@@ -85,13 +85,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
       );
       FFAppState().isLoginNew = true;
       safeSetState(() {});
-      Navigator.pop(context);
       await actions.periodicGetLocation(
         FFAppState().employeeID,
         FFAppState().profilePhone,
         isAndroid ? 'Android' : 'iOS',
         FFAppState().deviceId,
       );
+      Navigator.pop(context);
     });
   }
 
