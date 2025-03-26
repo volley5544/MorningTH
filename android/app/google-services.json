@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "995211659711",
+    "project_id": "arunsawad-th-application",
+    "storage_bucket": "arunsawad-th-application.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995211659711:android:288ccf06c7d0fccf4c390a",
+        "android_client_info": {
+          "package_name": "com.srisawad.arunsawadth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSDeRRgcNp7TmP6yCRGNq215K_8dmjoYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995211659711:android:8cc80868a62861344c390a",
+        "android_client_info": {
+          "package_name": "com.srisawad.arunsawadvn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSDeRRgcNp7TmP6yCRGNq215K_8dmjoYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
