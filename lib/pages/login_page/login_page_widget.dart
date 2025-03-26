@@ -282,30 +282,20 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                             ),
                             Align(
                               alignment: AlignmentDirectional(2.43, -2.73),
-                              child: InkWell(
-                                splashColor: Colors.transparent,
-                                focusColor: Colors.transparent,
-                                hoverColor: Colors.transparent,
-                                highlightColor: Colors.transparent,
-                                onTap: () async {
-                                  await actions.login();
-                                },
-                                child: Container(
-                                  width: MediaQuery.sizeOf(context).width * 0.7,
-                                  height:
-                                      MediaQuery.sizeOf(context).width * 0.7,
-                                  decoration: BoxDecoration(
-                                    gradient: LinearGradient(
-                                      colors: [
-                                        Color(0xFF0006B4),
-                                        Color(0xFF7479FF)
-                                      ],
-                                      stops: [0.0, 1.0],
-                                      begin: AlignmentDirectional(0.0, -1.0),
-                                      end: AlignmentDirectional(0, 1.0),
-                                    ),
-                                    shape: BoxShape.circle,
+                              child: Container(
+                                width: MediaQuery.sizeOf(context).width * 0.7,
+                                height: MediaQuery.sizeOf(context).width * 0.7,
+                                decoration: BoxDecoration(
+                                  gradient: LinearGradient(
+                                    colors: [
+                                      Color(0xFF0006B4),
+                                      Color(0xFF7479FF)
+                                    ],
+                                    stops: [0.0, 1.0],
+                                    begin: AlignmentDirectional(0.0, -1.0),
+                                    end: AlignmentDirectional(0, 1.0),
                                   ),
+                                  shape: BoxShape.circle,
                                 ),
                               ).animateOnPageLoad(animationsMap[
                                   'containerOnPageLoadAnimation2']!),

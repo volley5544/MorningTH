@@ -4,7 +4,6 @@ export 'check_gps_service_enable.dart' show checkGpsServiceEnable;
 export 'periodic_get_location.dart' show periodicGetLocation;
 export 'enable_gps_service.dart' show enableGpsService;
 export 'check_firebase.dart' show checkFirebase;
-export 'login.dart' show login;
 export 'check_user_firebase.dart' show checkUserFirebase;
 export 'background_location_permission.dart' show backgroundLocationPermission;
 export 'get_build_version.dart' show getBuildVersion;
